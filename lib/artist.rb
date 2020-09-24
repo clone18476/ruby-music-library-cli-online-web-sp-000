@@ -21,11 +21,18 @@ class Artist
     @@all.clear
   end 
   
-  
   def self.create(artist)
     artist = self.new(artist)
     artist.save
     artist
   end 
+  
+  def add_song(song)
+    @@all << (song)
+  end 
+  
+  
+  
+  
   
 end
