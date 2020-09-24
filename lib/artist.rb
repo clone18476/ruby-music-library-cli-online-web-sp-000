@@ -34,8 +34,8 @@ class Artist
     else 
       nil 
     end 
-    
-    @songs
+    @songs << song 
+    song
   end 
   
   
