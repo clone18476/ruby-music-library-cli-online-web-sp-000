@@ -22,10 +22,10 @@ class Genre
   end 
   
   
-  def self.create(song)
-    song = self.new(song)
-    song.save
-    song
+  def self.create(genre)
+    genre = self.new(genre)
+    genre.save
+    genre
   end 
   
 end
