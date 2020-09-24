@@ -38,7 +38,7 @@ class Artist
     else 
       nil 
     end 
-    song
+    
   end 
   
   
